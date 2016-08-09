@@ -7,31 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF328EC61D54CEE2002AF2A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF328EC51D54CEE2002AF2A7 /* main.swift */; };
+		BF328F0E1D58B85E002AF2A7 /* CarthageKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BF328F101D58E8E4002AF2A7 /* CarthageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */; };
+		BF328F121D59C99A002AF2A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF328F111D59C99A002AF2A7 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BF328EC01D54CEE2002AF2A7 /* CopyFiles */ = {
+		BF328EF41D54DB84002AF2A7 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			dstPath = "";
+			dstSubfolderSpec = 10;
 			files = (
+				BF328F0E1D58B85E002AF2A7 /* CarthageKit.framework in Embed Frameworks */,
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BF328EC21D54CEE2002AF2A7 /* CartfileDiff */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CartfileDiff; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF328EC51D54CEE2002AF2A7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BF328EDE1D54DB11002AF2A7 /* cartfilediff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cartfilediff.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageKit.framework; path = Carthage/Build/Mac/CarthageKit.framework; sourceTree = "<group>"; };
+		BF328F111D59C99A002AF2A7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/main.swift; sourceTree = SOURCE_ROOT; };
+		BF328F131D59C9A7002AF2A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BF328EBF1D54CEE2002AF2A7 /* Frameworks */ = {
+		BF328EDB1D54DB11002AF2A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF328F101D58E8E4002AF2A7 /* CarthageKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,7 +48,8 @@
 		BF328EB91D54CEE2002AF2A7 = {
 			isa = PBXGroup;
 			children = (
-				BF328EC41D54CEE2002AF2A7 /* CartfileDiff */,
+				BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */,
+				BF328EDF1D54DB11002AF2A7 /* cartfilediff */,
 				BF328EC31D54CEE2002AF2A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,38 +57,41 @@
 		BF328EC31D54CEE2002AF2A7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BF328EC21D54CEE2002AF2A7 /* CartfileDiff */,
+				BF328EDE1D54DB11002AF2A7 /* cartfilediff.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BF328EC41D54CEE2002AF2A7 /* CartfileDiff */ = {
+		BF328EDF1D54DB11002AF2A7 /* cartfilediff */ = {
 			isa = PBXGroup;
 			children = (
-				BF328EC51D54CEE2002AF2A7 /* main.swift */,
+				BF328F111D59C99A002AF2A7 /* main.swift */,
+				BF328F131D59C9A7002AF2A7 /* Info.plist */,
 			);
-			path = CartfileDiff;
+			path = cartfilediff;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BF328EC11D54CEE2002AF2A7 /* CartfileDiff */ = {
+		BF328EDD1D54DB11002AF2A7 /* cartfilediff */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BF328EC91D54CEE2002AF2A7 /* Build configuration list for PBXNativeTarget "CartfileDiff" */;
+			buildConfigurationList = BF328EE81D54DB11002AF2A7 /* Build configuration list for PBXNativeTarget "cartfilediff" */;
 			buildPhases = (
-				BF328EBE1D54CEE2002AF2A7 /* Sources */,
-				BF328EBF1D54CEE2002AF2A7 /* Frameworks */,
-				BF328EC01D54CEE2002AF2A7 /* CopyFiles */,
+				BF328EDA1D54DB11002AF2A7 /* Sources */,
+				BF328EDB1D54DB11002AF2A7 /* Frameworks */,
+				BF328EDC1D54DB11002AF2A7 /* Resources */,
+				BF328F0F1D58E244002AF2A7 /* Extract CLI Tool */,
+				BF328EF41D54DB84002AF2A7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CartfileDiff;
-			productName = CartfileDiff;
-			productReference = BF328EC21D54CEE2002AF2A7 /* CartfileDiff */;
-			productType = "com.apple.product-type.tool";
+			name = cartfilediff;
+			productName = cartfilediff;
+			productReference = BF328EDE1D54DB11002AF2A7 /* cartfilediff.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -92,7 +103,7 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Leanworks Ltd.";
 				TargetAttributes = {
-					BF328EC11D54CEE2002AF2A7 = {
+					BF328EDD1D54DB11002AF2A7 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -103,23 +114,53 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = BF328EB91D54CEE2002AF2A7;
 			productRefGroup = BF328EC31D54CEE2002AF2A7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF328EC11D54CEE2002AF2A7 /* CartfileDiff */,
+				BF328EDD1D54DB11002AF2A7 /* cartfilediff */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		BF328EDC1D54DB11002AF2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BF328F0F1D58E244002AF2A7 /* Extract CLI Tool */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = "Extract CLI Tool";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(EXECUTABLE_NAME)",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = ". script/extract-tool";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		BF328EBE1D54CEE2002AF2A7 /* Sources */ = {
+		BF328EDA1D54DB11002AF2A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF328EC61D54CEE2002AF2A7 /* main.swift in Sources */,
+				BF328F121D59C99A002AF2A7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,16 +249,36 @@
 			};
 			name = Release;
 		};
-		BF328ECA1D54CEE2002AF2A7 /* Debug */ = {
+		BF328EE91D54DB11002AF2A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/. @executable_path/../Frameworks /Library/Frameworks /Library/Frameworks/CartfileDiff.framework/Versions/Current/Frameworks $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yplanapp.cartfilediff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BF328ECB1D54CEE2002AF2A7 /* Release */ = {
+		BF328EEA1D54DB11002AF2A7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = Sources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/. @executable_path/../Frameworks /Library/Frameworks /Library/Frameworks/CartfileDiff.framework/Versions/Current/Frameworks $(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yplanapp.cartfilediff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -234,13 +295,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BF328EC91D54CEE2002AF2A7 /* Build configuration list for PBXNativeTarget "CartfileDiff" */ = {
+		BF328EE81D54DB11002AF2A7 /* Build configuration list for PBXNativeTarget "cartfilediff" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BF328ECA1D54CEE2002AF2A7 /* Debug */,
-				BF328ECB1D54CEE2002AF2A7 /* Release */,
+				BF328EE91D54DB11002AF2A7 /* Debug */,
+				BF328EEA1D54DB11002AF2A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

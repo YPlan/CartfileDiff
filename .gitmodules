@@ -1,0 +1,27 @@
+[submodule "Carthage/Checkouts/Argo"]
+	path = Carthage/Checkouts/Argo
+	url = https://github.com/thoughtbot/Argo.git
+[submodule "Carthage/Checkouts/Curry"]
+	path = Carthage/Checkouts/Curry
+	url = https://github.com/thoughtbot/Curry.git
+[submodule "Carthage/Checkouts/PrettyColors"]
+	path = Carthage/Checkouts/PrettyColors
+	url = https://github.com/jdhealy/PrettyColors.git
+[submodule "Carthage/Checkouts/Result"]
+	path = Carthage/Checkouts/Result
+	url = https://github.com/antitypical/Result.git
+[submodule "Carthage/Checkouts/Commandant"]
+	path = Carthage/Checkouts/Commandant
+	url = https://github.com/Carthage/Commandant.git
+[submodule "Carthage/Checkouts/ReactiveCocoa"]
+	path = Carthage/Checkouts/ReactiveCocoa
+	url = https://github.com/ReactiveCocoa/ReactiveCocoa.git
+[submodule "Carthage/Checkouts/ReactiveTask"]
+	path = Carthage/Checkouts/ReactiveTask
+	url = https://github.com/Carthage/ReactiveTask.git
+[submodule "Carthage/Checkouts/Tentacle"]
+	path = Carthage/Checkouts/Tentacle
+	url = https://github.com/mdiep/Tentacle.git
+[submodule "Carthage/Checkouts/Carthage"]
+	path = Carthage/Checkouts/Carthage
+	url = https://github.com/Carthage/Carthage.git
