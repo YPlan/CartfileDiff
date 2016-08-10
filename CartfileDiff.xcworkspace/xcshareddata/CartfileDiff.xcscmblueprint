@@ -1,0 +1,107 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4E1C83624AA2310289268788AA09D3B34615CC5F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9E0BC608EAE3637620FA818A6049BADAD4B54494" : 0,
+    "4E1C83624AA2310289268788AA09D3B34615CC5F" : 0,
+    "D23C0CEAADB77074FDA4459000068A7940EB7AD0" : 0,
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : 0,
+    "39CB70283A1C33AFB5FF861E924945826EDC74FE" : 0,
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : 0,
+    "AB0A48DD995E26A187DED71E830FA3DB4DD771C9" : 0,
+    "4A8B372742AB6A9F7C003CD6A71C6422ECB61DE9" : 0,
+    "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2" : 0,
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : 0,
+    "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : 0,
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : 0,
+    "24A62EE155525E549162B020E618F50559185CDB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "48436CD3-8D49-40EB-B982-5ACE57AB0DD9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9E0BC608EAE3637620FA818A6049BADAD4B54494" : "CartfileDiff\/Carthage\/Checkouts\/Tentacle\/",
+    "4E1C83624AA2310289268788AA09D3B34615CC5F" : "CartfileDiff\/",
+    "D23C0CEAADB77074FDA4459000068A7940EB7AD0" : "CartfileDiff\/Carthage\/Checkouts\/Commandant\/",
+    "E084C86B03F81D63323C9E7510697EA528A758C7" : "CartfileDiff\/Carthage\/Checkouts\/Carthage\/Carthage\/Checkouts\/xcconfigs\/",
+    "39CB70283A1C33AFB5FF861E924945826EDC74FE" : "CartfileDiff\/Carthage\/Checkouts\/Argo\/",
+    "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5" : "CartfileDiff\/Carthage\/Checkouts\/ReactiveCocoa\/",
+    "AB0A48DD995E26A187DED71E830FA3DB4DD771C9" : "CartfileDiff\/Carthage\/Checkouts\/Carthage\/",
+    "4A8B372742AB6A9F7C003CD6A71C6422ECB61DE9" : "CartfileDiff\/Carthage\/Checkouts\/ReactiveTask\/",
+    "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2" : "CartfileDiff\/Carthage\/Checkouts\/Tentacle\/Carthage\/Checkouts\/OHHTTPStubs\/",
+    "956D2B21DD155C49504BB67697A67F7C5351A353" : "CartfileDiff\/Carthage\/Checkouts\/Result\/",
+    "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4" : "CartfileDiff\/Carthage\/Checkouts\/Argo\/Carthage\/Checkouts\/Runes\/",
+    "194A7A54F3CE0138A6C320E0643B7C60F8218891" : "CartfileDiff\/Carthage\/Checkouts\/Argo\/Carthage\/Checkouts\/Curry\/",
+    "24A62EE155525E549162B020E618F50559185CDB" : "CartfileDiff\/Carthage\/Checkouts\/PrettyColors\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CartfileDiff",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CartfileDiff.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thoughtbot\/Runes.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0A5C3A6DB1EA9211CEFA5384E9882B4D710699A4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thoughtbot\/Curry.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "194A7A54F3CE0138A6C320E0643B7C60F8218891"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jdhealy\/PrettyColors.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "24A62EE155525E549162B020E618F50559185CDB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/thoughtbot\/Argo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "39CB70283A1C33AFB5FF861E924945826EDC74FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Carthage\/ReactiveTask.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4A8B372742AB6A9F7C003CD6A71C6422ECB61DE9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:yplan\/CartfileDiff.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4E1C83624AA2310289268788AA09D3B34615CC5F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ReactiveCocoa\/ReactiveCocoa.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "51B210D0D41486D3ADD6940D57E4480BBD4DE4C5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/antitypical\/Result.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "956D2B21DD155C49504BB67697A67F7C5351A353"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mdiep\/Tentacle.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9E0BC608EAE3637620FA818A6049BADAD4B54494"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/AliSoftware\/OHHTTPStubs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A11A2549D5CB40607BCC5ED8DF4A3BF3E6CE30E2"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Carthage\/Carthage.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB0A48DD995E26A187DED71E830FA3DB4DD771C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Carthage\/Commandant.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D23C0CEAADB77074FDA4459000068A7940EB7AD0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/jspahrsummers\/xcconfigs.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E084C86B03F81D63323C9E7510697EA528A758C7"
+    }
+  ]
+}

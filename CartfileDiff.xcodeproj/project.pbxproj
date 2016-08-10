@@ -7,30 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BF328F0E1D58B85E002AF2A7 /* CarthageKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BF328F101D58E8E4002AF2A7 /* CarthageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */; };
 		BF328F121D59C99A002AF2A7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF328F111D59C99A002AF2A7 /* main.swift */; };
+		BF81A7F91D5A4665001EFFEE /* CarthageKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF81A7F81D5A4665001EFFEE /* CarthageKit.framework */; };
+		BF81A8011D5B2F90001EFFEE /* CartfileDiffKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF81A7EA1D5A4608001EFFEE /* CartfileDiffKit.framework */; };
+		BF81A8021D5B2F90001EFFEE /* CartfileDiffKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BF81A7EA1D5A4608001EFFEE /* CartfileDiffKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BF81A8061D5B35B6001EFFEE /* CarthageKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = BF81A7F81D5A4665001EFFEE /* CarthageKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BF81A80A1D5B45F1001EFFEE /* CartfileDiffKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BF81A8081D5B45EB001EFFEE /* CartfileDiffKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		BF81A7FC1D5A4857001EFFEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF328EBA1D54CEE2002AF2A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF81A7E91D5A4608001EFFEE;
+			remoteInfo = CartfileDiffKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
-		BF328EF41D54DB84002AF2A7 /* Embed Frameworks */ = {
+		BF81A8031D5B2F90001EFFEE /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				BF328F0E1D58B85E002AF2A7 /* CarthageKit.framework in Embed Frameworks */,
+				BF81A8021D5B2F90001EFFEE /* CartfileDiffKit.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF81A8041D5B3031001EFFEE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BF81A8061D5B35B6001EFFEE /* CarthageKit.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BF328EDE1D54DB11002AF2A7 /* cartfilediff.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cartfilediff.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CarthageKit.framework; path = Carthage/Build/Mac/CarthageKit.framework; sourceTree = "<group>"; };
 		BF328F111D59C99A002AF2A7 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = main.swift; path = Sources/main.swift; sourceTree = SOURCE_ROOT; };
 		BF328F131D59C9A7002AF2A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Sources/Info.plist; sourceTree = SOURCE_ROOT; };
+		BF81A7EA1D5A4608001EFFEE /* CartfileDiffKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CartfileDiffKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF81A7F81D5A4665001EFFEE /* CarthageKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CarthageKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF81A8081D5B45EB001EFFEE /* CartfileDiffKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CartfileDiffKit.h; sourceTree = "<group>"; };
+		BF81A8091D5B45EB001EFFEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +64,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF328F101D58E8E4002AF2A7 /* CarthageKit.framework in Frameworks */,
+				BF81A8011D5B2F90001EFFEE /* CartfileDiffKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF81A7E61D5A4608001EFFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF81A7F91D5A4665001EFFEE /* CarthageKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,8 +82,9 @@
 		BF328EB91D54CEE2002AF2A7 = {
 			isa = PBXGroup;
 			children = (
-				BF328F0C1D58B7D1002AF2A7 /* CarthageKit.framework */,
+				BF81A7F81D5A4665001EFFEE /* CarthageKit.framework */,
 				BF328EDF1D54DB11002AF2A7 /* cartfilediff */,
+				BF81A8071D5B45EB001EFFEE /* CartfileDiffKit */,
 				BF328EC31D54CEE2002AF2A7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				BF328EDE1D54DB11002AF2A7 /* cartfilediff.app */,
+				BF81A7EA1D5A4608001EFFEE /* CartfileDiffKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +107,28 @@
 			path = cartfilediff;
 			sourceTree = "<group>";
 		};
+		BF81A8071D5B45EB001EFFEE /* CartfileDiffKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF81A8081D5B45EB001EFFEE /* CartfileDiffKit.h */,
+				BF81A8091D5B45EB001EFFEE /* Info.plist */,
+			);
+			name = CartfileDiffKit;
+			path = Sources/CartfileDiffKit;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BF81A7E71D5A4608001EFFEE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF81A80A1D5B45F1001EFFEE /* CartfileDiffKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		BF328EDD1D54DB11002AF2A7 /* cartfilediff */ = {
@@ -82,16 +139,36 @@
 				BF328EDB1D54DB11002AF2A7 /* Frameworks */,
 				BF328EDC1D54DB11002AF2A7 /* Resources */,
 				BF328F0F1D58E244002AF2A7 /* Extract CLI Tool */,
-				BF328EF41D54DB84002AF2A7 /* Embed Frameworks */,
+				BF81A8031D5B2F90001EFFEE /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BF81A7FD1D5A4857001EFFEE /* PBXTargetDependency */,
 			);
 			name = cartfilediff;
 			productName = cartfilediff;
 			productReference = BF328EDE1D54DB11002AF2A7 /* cartfilediff.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BF81A7E91D5A4608001EFFEE /* CartfileDiffKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF81A7F31D5A4608001EFFEE /* Build configuration list for PBXNativeTarget "CartfileDiffKit" */;
+			buildPhases = (
+				BF81A7E51D5A4608001EFFEE /* Sources */,
+				BF81A7E61D5A4608001EFFEE /* Frameworks */,
+				BF81A7E71D5A4608001EFFEE /* Headers */,
+				BF81A7E81D5A4608001EFFEE /* Resources */,
+				BF81A8041D5B3031001EFFEE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CartfileDiffKit;
+			productName = CartfileDiff;
+			productReference = BF81A7EA1D5A4608001EFFEE /* CartfileDiffKit.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -104,6 +181,9 @@
 				ORGANIZATIONNAME = "Leanworks Ltd.";
 				TargetAttributes = {
 					BF328EDD1D54DB11002AF2A7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BF81A7E91D5A4608001EFFEE = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
 				};
@@ -122,12 +202,20 @@
 			projectRoot = "";
 			targets = (
 				BF328EDD1D54DB11002AF2A7 /* cartfilediff */,
+				BF81A7E91D5A4608001EFFEE /* CartfileDiffKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		BF328EDC1D54DB11002AF2A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF81A7E81D5A4608001EFFEE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -164,7 +252,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BF81A7E51D5A4608001EFFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF81A7FD1D5A4857001EFFEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF81A7E91D5A4608001EFFEE /* CartfileDiffKit */;
+			targetProxy = BF81A7FC1D5A4857001EFFEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BF328EC71D54CEE2002AF2A7 /* Debug */ = {
@@ -185,7 +288,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -204,7 +307,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -230,7 +333,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -243,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
@@ -254,11 +357,6 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/. @executable_path/../Frameworks /Library/Frameworks /Library/Frameworks/CartfileDiff.framework/Versions/Current/Frameworks $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yplanapp.cartfilediff;
@@ -271,15 +369,54 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/Mac",
-				);
 				INFOPLIST_FILE = Sources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/. @executable_path/../Frameworks /Library/Frameworks /Library/Frameworks/CartfileDiff.framework/Versions/Current/Frameworks $(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yplanapp.cartfilediff;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BF81A7F41D5A4608001EFFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/CartfileDiffKit/Info.plist;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yplanapp.CartfileDiff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BF81A7F51D5A4608001EFFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Sources/CartfileDiffKit/Info.plist;
+				INSTALL_PATH = "@rpath";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yplanapp.CartfileDiff;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -303,6 +440,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		BF81A7F31D5A4608001EFFEE /* Build configuration list for PBXNativeTarget "CartfileDiffKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF81A7F41D5A4608001EFFEE /* Debug */,
+				BF81A7F51D5A4608001EFFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

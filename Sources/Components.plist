@@ -13,53 +13,11 @@
 				<key>BundleOverwriteAction</key>
 				<string></string>
 				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/ReactiveTask.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/Commandant.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/Result.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/ReactiveCocoa.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/Argo.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/PrettyColors.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/Curry.framework</string>
-			</dict>
-			<dict>
-				<key>BundleOverwriteAction</key>
-				<string></string>
-				<key>RootRelativeBundlePath</key>
-				<string>Library/Frameworks/CartfileDiff.framework/Versions/A/Frameworks/Tentacle.framework</string>
+				<string>Library/Frameworks/CartfileDiffKit.framework/Versions/A/Frameworks/CarthageKit.framework</string>
 			</dict>
 		</array>
 		<key>RootRelativeBundlePath</key>
-		<string>Library/Frameworks/CartfileDiff.framework</string>
+		<string>Library/Frameworks/CartfileDiffKit.framework</string>
 	</dict>
 </array>
 </plist>

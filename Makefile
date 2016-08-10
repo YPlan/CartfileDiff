@@ -1,14 +1,14 @@
 TEMPORARY_FOLDER?=/tmp/cartfilediff.dst
 PREFIX?=/usr/local
 
-XCODEFLAGS=-project 'CartfileDiff.xcodeproj' -scheme 'cartfilediff' DSTROOT=$(TEMPORARY_FOLDER)
+XCODEFLAGS=-workspace 'CartfileDiff.xcworkspace' -scheme 'cartfilediff' DSTROOT=$(TEMPORARY_FOLDER)
 
 OUTPUT_PACKAGE=CartfileDiff.pkg
-OUTPUT_FRAMEWORK=CartfileDiff.framework
+OUTPUT_FRAMEWORK=CartfileDiffKit.framework
 
 BUILT_BUNDLE=$(TEMPORARY_FOLDER)/Applications/cartfilediff.app
-CARTHAGEKIT_BUNDLE=$(BUILT_BUNDLE)/Contents/Frameworks/$(OUTPUT_FRAMEWORK)
-CARTHAGE_EXECUTABLE=$(BUILT_BUNDLE)/Contents/MacOS/cartfilediff
+CARTFILEDIFFKIT_BUNDLE=$(BUILT_BUNDLE)/Contents/Frameworks/$(OUTPUT_FRAMEWORK)
+CARTFILEDIFF_EXECUTABLE=$(BUILT_BUNDLE)/Contents/MacOS/cartfilediff
 
 FRAMEWORKS_FOLDER=/Library/Frameworks
 BINARIES_FOLDER=/usr/local/bin
@@ -43,9 +43,9 @@ installables: clean bootstrap
 	xcodebuild $(XCODEFLAGS) install
 
 	mkdir -p "$(TEMPORARY_FOLDER)$(FRAMEWORKS_FOLDER)" "$(TEMPORARY_FOLDER)$(BINARIES_FOLDER)"
-	mv -f "$(BUILT_BUNDLE)/Contents/Frameworks/CarthageKit.framework" "$(TEMPORARY_FOLDER)$(FRAMEWORKS_FOLDER)/$(OUTPUT_FRAMEWORK)"
-	mv -f "$(CARTHAGE_EXECUTABLE)" "$(TEMPORARY_FOLDER)$(BINARIES_FOLDER)/cartfilediff"
-	rm -rf "$(BUILT_BUNDLE)"
+	mv -f "$(CARTFILEDIFFKIT_BUNDLE)" "$(TEMPORARY_FOLDER)$(FRAMEWORKS_FOLDER)/$(OUTPUT_FRAMEWORK)"
+	mv -f "$(CARTFILEDIFF_EXECUTABLE)" "$(TEMPORARY_FOLDER)$(BINARIES_FOLDER)/cartfilediff"
+	# rm -rf "$(BUILT_BUNDLE)"
 
 prefix_install: installables
 	mkdir -p "$(PREFIX)/Frameworks" "$(PREFIX)/bin"

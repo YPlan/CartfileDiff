@@ -9,6 +9,7 @@
 import Foundation
 import CarthageKit
 import Result
+import CartfileDiffKit
 
 func printUsageString() {
     print("Usage: cartfilediff accepts two arguents which are paths to "
