@@ -1,4 +1,5 @@
-# CartfileDiff
+# CartfileDiff 
+[![Build Status](https://travis-ci.org/YPlan/CartfileDiff.svg?branch=master)](https://travis-ci.org/YPlan/CartfileDiff)
 
 A simple tool for comparing two `Cartfile.resolved` files and printing a list of dependencies in the latter which are new or differ in pinned version.
 
