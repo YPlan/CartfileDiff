@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode7.3
+install: true
+git:
+  submodules: false
+script: make package
