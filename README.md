@@ -12,7 +12,7 @@ Alternatively, clone this repository and run `make install`.
 
 `cartfilediff <old Cartfile.resolved> <new Cartfile.resolved>`
 
-The tool prints a list of dependencies which need upgrading. If nothing needs upgrading, the tool prints nothing.
+The tool prints a list of dependencies which need bootstrapping. If nothing needs bootstrapping, the tool prints nothing.
 
 ## License
 
